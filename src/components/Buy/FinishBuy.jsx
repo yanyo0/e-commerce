@@ -1,6 +1,6 @@
 import { Container, Typography } from '@mui/material'
 import React from 'react'
-import img from "../assets/img/gracias1.gif"
+import img from "../../assets/img/gracias1.gif"
 
 export default function FinishBuy() {
   return (

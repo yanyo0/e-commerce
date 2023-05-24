@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Box, Button, Typography } from "@mui/material";
 import LocalShippingIcon from "@mui/icons-material/LocalShipping";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
-import FormBuySend from "./FormBuySend";
-import FormBuyWithdraw from "./FormBuyWithdraw";
+import FormBuySend from "../Form/FormBuySend";
+import FormBuyWithdraw from "../Form/FormBuyWithdraw";
 import { useState } from "react";
 
 export default function InfoBuy() {

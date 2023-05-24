@@ -12,7 +12,7 @@ import {
   Box,
 } from "@mui/material";
 import React, { useContext } from "react";
-import { LocalMallContext } from "../context/LocalMallContext";
+import { LocalMallContext } from "../../context/LocalMallContext";
 import { useState } from "react";
 import Swal from "sweetalert2";
 import { Link } from "react-router-dom";

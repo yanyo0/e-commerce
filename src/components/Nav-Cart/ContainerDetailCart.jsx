@@ -66,7 +66,7 @@ export default function ContainerDetailCart() {
     <Container
       maxWidth="false"
       sx={{
-        minHeight: "79vh",
+        minHeight: "85vh",
         width: 1,
         p: 3,
         bgcolor: "secondary.light",
@@ -95,6 +95,7 @@ export default function ContainerDetailCart() {
         ))}
 
       {paintDetailCart()}
+      {localMall.length !== 0 &&
       <Box
             sx={{
               width: "100%",
@@ -125,7 +126,7 @@ export default function ContainerDetailCart() {
             </Button>
             </Link>
             : <Login variant={"outlined"} color={"primary"}  />} 
-          </Box>
+          </Box>}
     </Container>
   );
 }

@@ -4,7 +4,7 @@ import { Button, Box, TextField } from "@mui/material";
 import Swal from "sweetalert2";
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import { Link } from "react-router-dom";
-import { LocalMallContext } from "../context/LocalMallContext";
+import { LocalMallContext } from "../../context/LocalMallContext";
 import { useContext } from "react";
 
 export default function FormBuySend() {

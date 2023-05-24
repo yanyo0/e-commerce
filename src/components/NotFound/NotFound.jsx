@@ -1,7 +1,7 @@
 import React from 'react'
-import notFound from "../assets/img/yalantis-interactive-404.gif"
+import notFound from "../../assets/img/yalantis-interactive-404.gif"
 import { Container } from '@mui/material';
-import PacmanLoader from "react-spinners/PacmanLoader";
+
 
 export default function NotFound() {
   return (

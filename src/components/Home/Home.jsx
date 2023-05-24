@@ -1,12 +1,12 @@
 import React from "react";
-import { db } from "../firebaseConfig";
+import { db } from "../../firebaseConfig";
 import { collection, getDocs } from "firebase/firestore";
 import { useEffect, useState } from "react";
 import { Container} from "@mui/material";
 import Carousel from "react-material-ui-carousel";
 import GridLoader from "react-spinners/GridLoader";
 import { Link } from "react-router-dom";
-import ImageCarrusel from "./ImageCarrusel";
+import ImageCarrusel from "../Main-Card/ImageCarrusel";
 
 export default function Home() {
   let [loading, setLoading] = useState(true);
@@ -54,7 +54,7 @@ export default function Home() {
       maxWidth="false"
       sx={{
         width: " 100%",
-        minHeight: "80vh",
+        minHeight: "85vh",
         p: 2,
         display: "flex",
         flexDirection: "column",
